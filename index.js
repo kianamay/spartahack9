@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Assume xmlDoc is your parsed XML document from the previous example
 
 // Function to search for a specific item
@@ -25,3 +26,5 @@ function searchForItem(menuXML, searchTerm) {
   // Example usage: Searching for "Eggs"
   searchForItem(xmlDoc, "Eggs");
   
+=======
+>>>>>>> f34770e (axios search)
