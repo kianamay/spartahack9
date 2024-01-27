@@ -1,1 +1,18 @@
 /* Add screen styles below */
+body {
+    background-color: rgb(255, 244, 209);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    padding: 30px;
+    margin: 30px;
+}
+
+h1{
+    font-weight: 900;
+
+}
+
+
+
+
+
