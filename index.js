@@ -2,9 +2,16 @@ const axios = require('axios');
 const { parseString } = require('xml2js');
 
 // Variable to store the search bar input
+/*
 const input = document.getElementById("searchBar");
 const inputValue = input.value;
 console.log(inputValue);
+*/
+
+app.get('/search', (req, res) => {
+    res.status(200).json({info: 'preset text'})
+});
+
 
 // Add event listener to the search button
 document.getElementById('searchButton').addEventListener('click', function() {
