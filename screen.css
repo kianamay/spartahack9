@@ -3,21 +3,35 @@ body {
     background-color: rgb(255, 244, 209);
     font-family: 'Montserrat';
     font-size: 22px;
+    color: #74442a;
     padding: 30px;
     margin: 30px;
+    
 }
 
 h1 {
     font-weight: 900;
 }
 
-#searchBar {
-    border-radius: 15px;
-    border: 1px #000 solid;
-    padding: 5px 5px 5px 25px;
-    top: 0;
-    left: 0;
-    z-index: 5;
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
+.searchArea{
+    
+    flex-direction: row;
+}
+
+#searchBar {
+    border-radius: 15px;
+    border: 1px #74442a;
+    padding: 5px 5px 5px 25px;
+    
+    
+}
+
+#cedar{
+   max-width: 90%; 
+}
 
